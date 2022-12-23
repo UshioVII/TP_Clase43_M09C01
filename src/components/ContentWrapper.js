@@ -1,5 +1,6 @@
 import React from 'react'
 import { ContentRowTop } from './ContentRowTop'
+import Information from './Information'
 import { Footer } from './Footer'
 import { TopBar } from './TopBar'
 
@@ -10,6 +11,7 @@ export const ContentWrapper = () => {
 			<div id="content">
 				<TopBar />
 				<ContentRowTop />
+				<Information/>
 			</div>
 			<Footer />
 
